@@ -1,5 +1,7 @@
-## Template project
+## Tirgy CRM
 
+This project is crm of Tirgy.
+<br/>
 Reactjs with Nextjs and storybook
 <br/>
 Atomic design and clean architecture
