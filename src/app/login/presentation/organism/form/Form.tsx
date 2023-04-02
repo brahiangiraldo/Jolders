@@ -1,3 +1,4 @@
+'use client'
 import './form.scss'
 import Input from '@/components/atoms/input/Input'
 import Button from '@/components/atoms/button/Button'

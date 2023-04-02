@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react'
 import Form from './Form'
 
 export default {
-	title: 'App/Login/Form',
+	title: 'App/Login/Organism/Form',
 	component: Form
 } as ComponentMeta<typeof Form>
 

@@ -7,7 +7,7 @@
   padding: 0px 6px;
 }
 
-.input:focus{
+.input:focus:active{
   outline: none !important;
   border: 2px solid #3e3b3b;
   box-shadow: 0 0 10px #a2a483;
@@ -15,4 +15,24 @@
 
 .input:hover{
   border: 1.5px solid #2a2927;
+}
+
+
+@media screen and (max-width: 480px){
+	.input{
+    height: 50px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+	.input{
+    height: 52px;
+    width: 350px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1024px){
+	
 }
