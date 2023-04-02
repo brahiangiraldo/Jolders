@@ -1,3 +1,18 @@
 .input{
-  height: 27px;
+  height: 38px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid var(--primary);
+  font-size: 15px;
+  padding: 0px 6px;
+}
+
+.input:focus{
+  outline: none !important;
+  border: 2px solid #3e3b3b;
+  box-shadow: 0 0 10px #a2a483;
+}
+
+.input:hover{
+  border: 1.5px solid #2a2927;
 }

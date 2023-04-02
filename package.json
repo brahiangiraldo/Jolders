@@ -11,9 +11,11 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@types/classnames": "^2.3.1",
     "@types/node": "18.15.11",
     "@types/react": "18.0.31",
     "@types/react-dom": "18.0.11",
+    "classnames": "^2.3.2",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
     "next": "13.2.4",
@@ -35,6 +37,7 @@
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
     "eslint-plugin-storybook": "^0.6.11",
+    "storybook-addon-next": "^1.8.0",
     "storybook-addon-sass-postcss": "^0.1.3"
   }
 }
