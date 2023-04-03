@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { Meta } from '@storybook/addon-docs'
 import Code from './assets/code-brackets.svg'
 import Colors from './assets/colors.svg'
@@ -11,7 +12,7 @@ import StackAlt from './assets/stackalt.svg'
 <Meta title="__Index__" />
 
 <style>
-	{`
+  {`
     .subheading {
       --mediumdark: '#999999';
       font-weight: 900;
@@ -114,102 +115,101 @@ import StackAlt from './assets/stackalt.svg'
   `}
 </style>
 
-# Welcome to Storybook of Tirgy CRM
+# Welcome to Jolders Storybook
 
 Storybook helps you build UI components in isolation from your app's business logic, data, and context.
 That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
 
-<div className="subheading">Configure</div>
+<div className="subheading">Methodologies and Architectures</div>
 
 <div className="link-list">
-	<a
-		className="link-item"
-		href="https://storybook.js.org/docs/react/addons/addon-types"
-		target="_blank"
-	>
-		<img src={Plugin} alt="plugin" />
-		<span>
-			<strong>Presets for popular tools</strong>
-			Easy setup for TypeScript, SCSS and more.
-		</span>
-	</a>
-	<a
-		className="link-item"
-		href="https://storybook.js.org/docs/react/configure/webpack"
-		target="_blank"
-	>
-		<img src={StackAlt} alt="Build" />
-		<span>
-			<strong>Build configuration</strong>
-			How to customize webpack and Babel
-		</span>
-	</a>
-	<a
-		className="link-item"
-		href="https://storybook.js.org/docs/react/configure/styling-and-css"
-		target="_blank"
-	>
-		<img src={Colors} alt="colors" />
-		<span>
-			<strong>Styling</strong>
-			How to load and configure CSS libraries
-		</span>
-	</a>
-	<a
-		className="link-item"
-		href="https://storybook.js.org/docs/react/get-started/setup#configure-storybook-for-your-stack"
-		target="_blank"
-	>
-		<img src={Flow} alt="flow" />
-		<span>
-			<strong>Data</strong>
-			Providers and mocking for data libraries
-		</span>
-	</a>
+  <a
+    className="link-item"
+    href="https://bradfrost.com/blog/post/atomic-web-design/"
+    target="_blank"
+  >
+    <Image src={Plugin} alt="plugin" />
+    <span>
+      <strong>Atomic design</strong>
+      Atomic design is methodology for creating design systems
+    </span>
+  </a>
+  <a
+    className="link-item"
+    href="https://levelup.gitconnected.com/what-is-screaming-architecture-f7c327af9bb2"
+    target="_blank"
+  >
+    <Image src={StackAlt} alt="Build" />
+    <span>
+      <strong>Screaming architecture</strong>
+      The term “screaming architecture” is used when we can, just by looking at a
+      new project at a glance
+    </span>
+  </a>
+  <a className="link-item" href="https://sass-lang.com/" target="_blank">
+    <Image src={Colors} alt="colors" />
+    <span>
+      <strong>Styling</strong>
+      How to load and configure SCSS libraries
+    </span>
+  </a>
+  <a
+    className="link-item"
+    href="https://betterprogramming.pub/the-clean-architecture-beginners-guide-e4b7058c1165"
+    target="_blank"
+  >
+    <Image src={Flow} alt="flow" />
+    <span>
+      <strong>Clean architecture</strong>
+      The Clean Architecture is the system architecture guideline proposed by Robert
+      C. Martin (Uncle Bob) derived from many architectural guidelines like Hexagonal
+      Architecture
+    </span>
+  </a>
 </div>
 
 <div className="subheading">Learn</div>
 
 <div className="link-list">
-	<a className="link-item" href="https://storybook.js.org/docs" target="_blank">
-		<img src={Repo} alt="repo" />
-		<span>
-			<strong>Storybook documentation</strong>
-			Configure, customize, and extend
-		</span>
-	</a>
-	<a
-		className="link-item"
-		href="https://storybook.js.org/tutorials/"
-		target="_blank"
-	>
-		<img src={Direction} alt="direction" />
-		<span>
-			<strong>In-depth guides</strong>
-			Best practices from leading teams
-		</span>
-	</a>
-	<a
-		className="link-item"
-		href="https://github.com/storybookjs/storybook"
-		target="_blank"
-	>
-		<img src={Code} alt="code" />
-		<span>
-			<strong>GitHub project</strong>
-			View the source and add issues
-		</span>
-	</a>
-	<a className="link-item" href="https://discord.gg/storybook" target="_blank">
-		<img src={Comments} alt="comments" />
-		<span>
-			<strong>Discord chat</strong>
-			Chat with maintainers and the community
-		</span>
-	</a>
+  <a className="link-item" href="https://storybook.js.org/docs" target="_blank">
+    <Image src={Repo} alt="repo" />
+    <span>
+      <strong>Storybook documentation</strong>
+      Configure, customize, and extend
+    </span>
+  </a>
+  <a
+    className="link-item"
+    href="https://storybook.js.org/tutorials/"
+    target="_blank"
+  >
+    <Image src={Direction} alt="direction" />
+    <span>
+      <strong>In-depth guides</strong>
+      Best practices from leading teams
+    </span>
+  </a>
+  <a
+    className="link-item"
+    href="https://github.com/storybookjs/storybook"
+    target="_blank"
+  >
+    <Image src={Code} alt="code" />
+    <span>
+      <strong>GitHub project</strong>
+      View the source and add issues
+    </span>
+  </a>
+  <a className="link-item" href="https://discord.gg/storybook" target="_blank">
+    <Image src={Comments} alt="comments" />
+    <span>
+      <strong>Discord chat</strong>
+      Chat with maintainers and the community
+    </span>
+  </a>
 </div>
 
 <div className="tip-wrapper">
-	<span className="tip">Tip</span>Edit the Markdown in{' '}
-	<code>stories/Introduction.stories.mdx</code>
+  <span className="tip">Tip</span>Edit the Markdown in{' '}
+  <code>stories/Introduction.stories.mdx</code>
 </div>

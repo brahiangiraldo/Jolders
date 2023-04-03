@@ -1,6 +1,6 @@
 ## Tirgy CRM
 
-This project is crm of Tirgy.
+This project is Jolders Web App
 <br/>
 Reactjs with Nextjs and storybook
 <br/>
