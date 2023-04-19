@@ -1,7 +1,11 @@
+@import './font.scss';
+
 :root{
   --primary: #000000;
   --light: #ffffff;
+  --font-family: 'Jura', sans-serif;
 }
 body{
   margin: 0px;
 }
+

@@ -1,0 +1,42 @@
+@font-face {
+	src: url('../../../../../assets/Montserrat-VariableFont_wght.ttf');
+	font-family: 'Montserrat';
+}
+
+@font-face {
+	src: url('../../../../../assets/Lato-Regular.ttf');
+	font-family: 'Lato';
+}
+.content-wrapper{
+	padding: 0px 25px 20px ;
+}
+.image-wrapper{
+	width: 180px;
+	height: 185.5px;
+}
+
+.container{
+	background-color: black;
+	display: flex;
+	padding-left: 70px;	
+	
+
+}
+
+.title{
+	font-family: 'Lato';
+	color: white;
+	font-weight: 700px;
+	margin: 50px 0px 0px ;
+	width: 880px;
+	font-size: 18px;
+}
+
+.paragraph{
+	font-family: 'Lato';
+	color: white;
+	margin: 10px 0px 0px ;
+	width: 880px;
+	font-size: 14px;
+	// height: 72px;
+}

@@ -1,0 +1,65 @@
+@font-face {
+	src: url('/src/assets/Lato-Regular.ttf');
+	font-family: 'Lato';
+}
+
+@font-face {
+	src: url('/src/assets/Jura-Regular.ttf');
+	font-family: 'Jura';
+}
+
+.cardStartUp{
+border-radius:  20px;
+overflow: hidden;
+width: 350px;
+height: 674px;
+background-color: black;
+border: solid 4px #ebebf1;
+}
+
+.category{
+	font-family: 'Lato';
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: -0.6px;
+	color: #d19fe8;
+	padding: 30px 30px 0px;
+}
+
+.startupName{
+	transition: 400ms;
+    -webkit-transition: 400ms;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: -0.5px;
+    display: block;
+	color:#D19FE4;
+	font-family: 'Jura';
+	padding: 30px 30px 0px;
+	width: 288px;
+	height: 94px;
+}
+
+.imgcardStartUp{
+	width: 100%;
+	height: 100%;
+}
+.currentInvestment{
+font-family: 'Lato';
+color: white;	
+padding-top: 1px;
+padding-left: 30px;
+padding-right: 30px;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+.cardinter{
+padding: 20px 15px 20px;
+}

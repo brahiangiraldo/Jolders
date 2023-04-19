@@ -1,0 +1,70 @@
+@font-face {
+	src: url('../../../../../assets/Lato-Regular.ttf');
+	font-family: 'Lato';
+}
+
+@font-face {
+	src: url('../../../../../assets/Jura-Regular.ttf');
+	font-family: 'Jura';
+}
+
+.containertResumeSlider {
+	display: flex; // Utiliza flexbox para centrar el contenido
+	align-items: center; // Centra verticalmente el contenido
+	flex-direction: column; // Ajusta la dirección de los elementos a columna
+	background-color: black;
+}
+
+.resumetTitle {
+	font-family: 'Lato';
+	color: #FFFFFF;
+	margin-top: 10px; // Ajusta el valor según el margen que desees
+}
+
+.resumetname{
+	font-family: 'Jura';
+	color: #d19fe8;
+}
+
+.resumehead{
+	font-family: 'Lato';
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+
+
+
+@media (max-width: 450px) {
+	.containertResume {
+		width: 370px;
+	}
+
+	.resumetTitle {
+		color: aquamarine;
+		padding: 22px;
+		text-align: center;
+
+	}
+}
+
+@media (min-width: 451px) and (max-width: 767px) {
+	.containertResume {
+		width: 630px;
+
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.containertResume {
+		width: 700px;
+
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.containertResume {
+		width: 1200px;
+
+	}
+}

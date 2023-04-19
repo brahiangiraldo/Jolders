@@ -1,0 +1,34 @@
+.header{
+	background-image: url('../../../../../assets/jolders.jpeg');
+	height: 80vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.main{
+	display:flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 161px;
+	margin-left: 175px;
+
+	
+}
+
+.font{
+	font-family: var(--font-family);
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #333;
+	text-align: center; 
+	margin-left: 200px; 
+	max-width: 30%; 
+	margin-top: 1px;
+	&:after {
+		content: "\1F60E\1F984";
+	  }
+	
+  }

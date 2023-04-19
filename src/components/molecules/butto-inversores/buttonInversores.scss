@@ -1,0 +1,36 @@
+
+@use "../../../../src/app/colors.scss";
+
+.buttonInversores {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #8224e3;
+  border-radius: 4px;
+  padding: 20px 70px;
+  cursor: pointer;
+  color: #D19FE8;
+  border: 1px solid #8224e3;
+  height: 51px;
+  width: 273.41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  align-items: center; 
+  justify-content: center;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  span {
+    margin: 0 5px;
+  }
+
+}
+
+.buttonInversores:hover {
+  background: #8224e3;
+  color: #d19fe8;
+}
+
