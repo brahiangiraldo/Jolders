@@ -13,8 +13,9 @@ const Accordeon = ({ title, body }: AccordeonProps) => {
   return (
     <div className="faq-container">
       <div className="faq-section">
-        <h4 className="title" onClick={handleClick}>
+        <h4 className="title-onclik" onClick={handleClick}>
           {title}
+		  <hr className='hr'/>
         </h4>
         <div className={
 		isOpen === undefined ? "initbody" 

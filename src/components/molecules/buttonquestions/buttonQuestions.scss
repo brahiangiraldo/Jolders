@@ -1,0 +1,15 @@
+@use "../../../../src/app/colors.scss";
+
+.buttonquestions {
+	border-width: 1px 1px 1px 1px;
+	border-color: #8224e3;
+	border-radius: 4px;
+	cursor: pointer;
+	color:#d19fe8;
+	background: #8224e3;
+	border: 1px solid #8224e3; 
+	height: 35px;
+	width: 146px;
+	margin: 20px;
+	margin-top: 20px;
+}

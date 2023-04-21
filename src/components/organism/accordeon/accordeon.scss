@@ -1,31 +1,66 @@
-.title {
-	color: black;
+
+
+.faq-container {
+	text-align: left;
+	cursor: pointer;
+	width: 450px;
+	
+  }
+  
+  .title-onclik {
+	color: white;
+	text-align: left;
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+    line-height: 60px;
+    letter-spacing: 0px;
+	width: 450px;
+  }
+  .hr{
+	width: 450px;
+  }
+  .faq-section{
+	text-align: left;
+	font-weight: 300;
+	font-family: 'Open Sans',sans-serif;
+	align-items: center;
+	font-family: 'OpenSans_SemiCondensed-Light';
+	font-weight: 400;
+	font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0px;
   }
   
   .openbody {
-	width: 500px;
+	width: 450px;
 	overflow: hidden;
-	border: 1px solid #000000;
-	animation: openedbody 2s ease-in-out;
+	animation: openedbody 0.5s ease-in-out;
+	text-align: left;
+
   }
   
+
   @keyframes openedbody {
 	from {height: 0px;}
 	to {height: 100px;}
   }
-
-.initbody{
+  
+  .initbody {
 	height: 0px;
 	overflow: hidden;
-}
+  }
   
   .closebody {
-	width: 500px;
+	width: 450px;
 	overflow: hidden;
-	border: 1px solid #000000;
-	animation: closedbody 2s ease-in; 
+	animation: closedbody 0.5s ease-in;
 	height: 0px;
+	text-align:left;
+	
   }
+  
+
   
   @keyframes closedbody {
 	from {height: 100px;}

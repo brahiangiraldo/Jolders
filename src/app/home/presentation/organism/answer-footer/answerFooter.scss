@@ -1,0 +1,33 @@
+
+@font-face {
+	src: url('../../../../../assets/Jura-Regular.ttf');
+	font-family: 'Jura-Regular';
+}
+@font-face {
+	src: url('../../../../../assets/Lato-Regular.ttf');
+	font-family: 'Lato-Regular';
+}
+
+.section-class {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	color: white;
+
+  }
+ 
+  .paragraph-answerFooter{
+	font-family: 'Jura-Regular';
+	font-size: 26px;
+  }
+  .sub-paragraph-answerFooter{
+	font-family: 'Lato-Regular';
+	font-size: 14px;
+  }
+
+  .svg-container{
+	margin-top: 20px;
+	
+  }

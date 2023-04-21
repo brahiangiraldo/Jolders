@@ -1,0 +1,35 @@
+@font-face {
+	src: url('../../../assets/Montserrat-ExtraBold.ttf');
+	font-family: 'Montserrat-ExtraBold';
+}
+@font-face {
+	src: url('../../../assets/Montserrat-VariableFont_wght.ttf');
+	font-family: 'Montserrat-VariableFont_wght';
+}
+
+.ComponentMarket {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  }
+  .paragraph-body2{
+	font-family: 'Montserrat-VariableFont_wght';
+	font-size: 14px;
+	font-weight: 400;
+	width: 500px;
+	font-size: 14px;
+    line-height: 1.57em;
+    letter-spacing: 0px;
+
+  }
+
+  .title-2{
+	font-family: 'Montserrat-VariableFont_wght';
+	padding: 15px;
+	font-weight: 500;
+	font-size: 18px;
+    line-height: 1.39em;
+    letter-spacing: 0px;
+  }

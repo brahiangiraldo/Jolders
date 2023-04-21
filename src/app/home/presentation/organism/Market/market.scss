@@ -1,0 +1,49 @@
+
+@font-face {
+	src: url('../../../../../assets/Montserrat-ExtraBold.ttf');
+	font-family: 'Montserrat-ExtraBold';
+}
+@font-face {
+	src: url('../../../../../assets/OpenSans_SemiCondensed-Light.ttf');
+	font-family: 'OpenSans_SemiCondensed-Light';
+}
+
+.section-Rocket {
+	background-color: black;
+	color: white;
+  }
+
+  .empowerment{
+	text-align: center;
+	padding: 40px;
+	font-family: 'OpenSans_SemiCondensed-Light';
+	font-size: 35px;
+    line-height: 24px;
+    letter-spacing: 0px;
+	font-weight: 100;
+  }
+
+.Title-Market{
+	text-align: center;
+	font-size: 52px;
+	font-weight: 700;
+	font-family: 'Montserrat-ExtraBold';
+	padding: 30px;
+	background: linear-gradient(90deg, #a9a3db 5%,#ad00ed 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.IconRocket{
+	align-items: center;
+	text-align: center;
+	
+  }
+  .grid-icon{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+  }
+  
