@@ -30,15 +30,15 @@
 	}
   
 	.wppb-font-quote {
-	  display: inline-block;
-	  color: white;
-	  font-size: 36px;
-	  -webkit-font-smoothing: antialiased;
+      color: white;
+	  font-size: 70px;
+	  height: 20px;
+	  margin-bottom: 30px;
+	  font-family: "Lato";
+	  text-shadow: -3px -3px 0 #64118b, 2px 2px 0 #6f23b1;
+	  transform: rotate(-5deg) skew(-5deg);
 	}
   
-	.wppb-font-quote::before {
-	  content: "\ea14";
-	}
   
 	&__paragraph {
 	  font-size: 16px;

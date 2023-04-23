@@ -17,14 +17,14 @@ const EventStart = ({ image, name }: EventProps) => {
         <img src={image} alt={`${name}'events`} />
       </div>
 	
-	  <section className='direction-button'>
+	  {/* <section className='direction-button'>
         <button className="button-event">
           E mail
         </button>
         <button className="button-Subscrib">
           Subscribirse
         </button>
-	  </section>
+	  </section> */}
 
 	<div className="risk-section">
 	  <h2 className="risk-warning__title">Advertencia de riesgo</h2>

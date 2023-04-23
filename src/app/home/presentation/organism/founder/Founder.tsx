@@ -5,7 +5,9 @@ import './founder.scss';
 const Founder = ({ paragraph, image, name, role }: FounderProps) => {
   return (
     <div className="founder">
-      <span className="wppb-font-quote">"</span>
+      <span className="wppb-font-quote">
+        "
+      </span>
       <p className="founder__paragraph">{paragraph}</p>
       <div className="founder__avatar">
         <img src={image} alt={`${name}'s Avatar`} />

@@ -3,7 +3,7 @@ import Cardfooter from './Cardfooter'
 
 
 export default {
-	title: 'App/Home/Startups/Molecules/Cardfooter',
+	title: 'Components/molecules/Cardfooter',
 	component: Cardfooter
 } as ComponentMeta<typeof Cardfooter>
 

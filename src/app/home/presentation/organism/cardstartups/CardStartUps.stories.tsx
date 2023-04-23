@@ -4,7 +4,7 @@ import CardStartUps from './CardStartUps';
 
 
 export default {
-	title: 'App/Home/Startups/Organism/CardStartUps',
+	title: 'App/Home/Organism/CardStartUps',
 	component: CardStartUps
 } as ComponentMeta<typeof CardStartUps>
 

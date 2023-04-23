@@ -1,8 +1,9 @@
 
+import IconFacebook from '@/components/atoms/icon_facebook/IconFacebook'
 import { FooterJoldersProps } from './FooterJolders.Props'
 import './footerJolders.scss'
-
-import React from 'react'
+import IconTwitter from '@/components/atoms/icon_twitter/IconTwitter'
+import IconInstagram from '../../../../../components/atoms/icon_instagram/IconInstagram';
 
 const FooterJolders = ({ image, name,  }: FooterJoldersProps) => {
   return (
@@ -13,8 +14,9 @@ const FooterJolders = ({ image, name,  }: FooterJoldersProps) => {
  <p>Discover what’s possible when a community creates together.</p>
  </section>
  <input type="text" className="footer__input" placeholder="Enter your email address" />
+ <button type="submit" value="" className='botton-submit'></button>
   </div>
-
+<section>
   <div className="footer__menus">
     <div className="footer__menu">
       <h3 className="footer__menu-title">Empresa</h3>
@@ -52,11 +54,15 @@ const FooterJolders = ({ image, name,  }: FooterJoldersProps) => {
         <li><a href="#">Crunchbase</a></li>
         <li><a href="#">Intranet</a></li>
       </ul>
-    </div>
+    </div>  
   </div>
+  <section className='icon-redes' >
+   <IconFacebook width={40} height={40} color='white'/>
+   <IconTwitter width={40} height={40} color='white'/>
+   <IconInstagram width={41} height={41} color='white'/>
+  </section>
+  </section>
 </footer>
-
-
 
   )
 }

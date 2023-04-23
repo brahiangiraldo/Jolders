@@ -28,7 +28,7 @@ export const Investor = () => {
     a moldear el futuro.</h2>
 
  <section className='buttonp'> 
-    <Button
+    {/* <Button
 					bgColor='white'
 					text="#SOY STARUP"
 					txtColor="white"
@@ -38,7 +38,7 @@ export const Investor = () => {
 					bgColor='white'
 					text="#SOY INVERSOR"
 					txtColor="white"
-				/>
+				/> */}
   </section> 
 
   </section>

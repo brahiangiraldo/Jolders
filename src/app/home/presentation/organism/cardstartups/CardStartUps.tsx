@@ -1,4 +1,5 @@
-import Cardfooter from '../../molecules/cardfooter/Cardfooter';
+// import Cardfooter from '../../molecules/cardfooter/Cardfooter';
+import Cardfooter from '@/components/molecules/cardfooter/Cardfooter';
 import { CardStartUpsProps } from './CardStartUpsProps';
 import './cardStartUps.scss'
 
