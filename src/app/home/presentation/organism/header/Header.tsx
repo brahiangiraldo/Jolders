@@ -6,7 +6,8 @@ import Image from 'next/image'
 
 export const Header = () => {
   return (
-	<section className='header'>
+
+	 <section className='header'>
     <MenuBarJolders/>
     <section className='main'>
     <Image src={ Jolder } alt='Logo jolders'/>
@@ -14,9 +15,11 @@ export const Header = () => {
     Invierte sin barreras desde el sofá de 
     tu casa y consigue rendimientos con el 
     próximo unicornio.
-    </strong>
+       </strong>
+      </section>
     </section>
 
-  </section>
   )
 }
+
+

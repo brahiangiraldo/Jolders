@@ -63,3 +63,56 @@ line-height: 24px;
 .cardinter{
 padding: 20px 15px 20px;
 }
+
+
+
+@media screen and (max-width: 364px){
+
+	.cardStartUp{
+		width: 90%;
+		height: 90%;
+
+	}
+
+	.startupName{
+		width: 90%;
+		height: 90%;
+	}
+}
+
+@media screen and (min-width: 365px) and (max-width: 480px){
+	.cardStartUp{
+		width: 90%;
+		height: 90%;
+    }
+ 
+	.startupName{
+		width: 90%;
+		height: 90%;
+	}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px){
+	.cardStartUp{
+		width: 90%;
+		height: 90%;
+    }
+	.startupName{
+		width: 90%;
+		height: 90%;
+	}
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px){
+	.cardStartUp{
+		width: 90%;
+		height: 90%;
+    }
+	.startupName{
+		width: 90%;
+		height: 90%;
+	}
+
+}

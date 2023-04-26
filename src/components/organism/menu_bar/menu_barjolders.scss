@@ -9,7 +9,6 @@
 	height: 85px;
 	background: black;
 	display: grid;
-	// grid-template-rows: 1fr;
 	grid-template-columns: 1fr 3fr;
 	padding: 20px;
 
@@ -24,7 +23,7 @@
 
 	img {
 		height: 80px;
-		width: 185px;
+		width: 187px;
 		margin-right: 85px;
 		padding: 9px 0 10px;
 	}
@@ -58,4 +57,32 @@
 			background-color: #8224E3;
 		}
 	}
+}
+
+@media screen and (max-width: 364px){
+	
+	.menuBarjolders {
+
+
+	}
+
+	.logoMenuBarjolders{
+
+
+	}
+
+
+	.optionsMenuBarjolders{
+
+
+	}
+}
+
+
+@media screen and (max-width: 480px){
+	
+}
+
+@media screen and (max-width: 800px){
+	
 }

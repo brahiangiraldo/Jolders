@@ -2,13 +2,13 @@
 import { Counter } from '@/components/organism/counter/Counter'
 import React from 'react'
 import './investor.scss'
-import Button from '@/components/molecules/button/Button'
+// import Button from '@/components/molecules/button/Button'
 
 
 
 export const Investor = () => {
   return (
-    <section className='content'>
+    <section className='content-section'>
       {/* conters*/ }
       <section className='conters'>
       <span> +<Counter number={56}/>k€ 
@@ -26,9 +26,9 @@ export const Investor = () => {
       </section>
     <h2 className='invest'>Invierte en Startups sin fronteras. Se parte de las empresas que van
     a moldear el futuro.</h2>
-
+{/* 
  <section className='buttonp'> 
-    {/* <Button
+    <Button
 					bgColor='white'
 					text="#SOY STARUP"
 					txtColor="white"
@@ -38,15 +38,9 @@ export const Investor = () => {
 					bgColor='white'
 					text="#SOY INVERSOR"
 					txtColor="white"
-				/> */}
-  </section> 
-
+				/>
+  </section>  */}
   </section>
-
-
-
-
-    
 
   )
 }

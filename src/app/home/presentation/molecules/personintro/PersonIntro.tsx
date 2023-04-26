@@ -4,7 +4,7 @@ import './personIntro.scss';
 
 const PersonIntro = () => {
   return (
-    <section className='container'>
+    <section className='container-person'>
       <div >
         <Image className='image-wrapper' src={front} alt='Image Person'/>
       </div>

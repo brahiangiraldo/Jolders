@@ -10,18 +10,19 @@ const ImputFolder = () => {
     <section className="imput-folder-container">//contenedor padre
      
 	 <section className='container-grid'>
+
 	 <section className="imput-folder-content-container">
 		<h2 className="imput-folder-title">¿Qué aporta Jolders?</h2>
          
 
-		 <section className='container-botton'>
+		 <section className='container-titlep'>
 		  <p className="imput-folder-paragraph ">
             Jolders permite invertir en participaciones digitalizadas
 			de startups de manera ágil y simple, desde cualquier parte del mundo.
 			🌍 ✅ Elimina intermediarios. ✅ Costos de transacción más bajos.
 			✅ Ahorro de tiempos. ✅ No requiere ir a notario. ✅ No requiere NIE.
           </p>
-		<div className='ButtonInversores'>
+		{/* <div className='ButtonInversores'>
           <ButtonInversores 
             bgColor='#000'
             text="Conoce cómo lo hacemos"
@@ -29,7 +30,7 @@ const ImputFolder = () => {
 			searchIcon=''
 			cartIcon='🪄'
            />
-		  </div>
+		  </div> */}
 		  </section>
 		  
 	</section>
