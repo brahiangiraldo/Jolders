@@ -43,7 +43,7 @@
 	&__paragraph {
 	  font-size: 16px;
 	  margin-bottom: 0.5rem;
-	  width: 250px;
+	  width: 100%;
 	  font-family: "Lato";
 	}
   
@@ -62,5 +62,16 @@
 	}
   }
 
- 
+  @media screen and (max-width: 364px){
+	.founder__paragraph {
+		width: 240px;
+		
+	}
+  }
   
+  @media screen and (min-width: 365px) and (max-width: 480px){
+	.founder__paragraph {
+		width: 320px;
+		
+	}
+  }

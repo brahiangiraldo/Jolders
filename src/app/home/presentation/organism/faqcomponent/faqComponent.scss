@@ -79,3 +79,31 @@
 .botton-answer{
 	text-align: center;
 }
+
+
+@media screen and (max-width: 364px){
+   .faq-component{
+	    display: none;
+}	
+
+}
+
+
+@media screen and (min-width: 365px) and (max-width: 480px){
+    .faq-component{
+	    display: none;
+}
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 600px){
+	.faq-component{
+		display: none;
+	}	
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+	.faq-component{
+		display: none;
+	}	
+}

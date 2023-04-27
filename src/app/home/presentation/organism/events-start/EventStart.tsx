@@ -2,7 +2,7 @@ import React from 'react';
 import './eventStart.scss';
 import { EventProps } from './Events.Props';
 
-const EventStart = ({ image, name }: EventProps) => {
+const EventStart = ({ image, name, }: EventProps) => {
   return (
     <section className='container-event'>
       <div className='title-event'>
@@ -13,9 +13,9 @@ const EventStart = ({ image, name }: EventProps) => {
         escuchamos sus necesidades e inquietudes y sobre eso trabajamos para mejorar el ecosistema.
         Juntos es mejor.!
       </div>
-      <div className="image-event">
-        <img src={image} alt={`${name}'events`} />
-      </div>
+     
+      <img className="image-event" src={image} alt={`${name}'events`} />
+      
 	
 	  {/* <section className='direction-button'>
         <button className="button-event">
@@ -44,3 +44,4 @@ const EventStart = ({ image, name }: EventProps) => {
 }
 
 export default EventStart;
+

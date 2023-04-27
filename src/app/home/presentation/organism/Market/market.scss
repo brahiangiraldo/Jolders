@@ -49,3 +49,135 @@
   align-items: center;
   }
   
+
+  @media screen and (max-width: 364px){
+	.section-Rocket{
+	   align-items: center;
+	   text-align: center;
+	   margin-bottom: 50px;
+	}
+	.Title-Market{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	   font-size: 25px;
+	   padding: 8px;
+	}
+	.IconRocket{
+	   align-items: center;
+	}
+	.empowerment{
+	   font-size: 18px;
+	   padding: 20px;
+	}
+	.grid-icon{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 1fr);
+		gap: 10px;
+		align-items: center;
+		justify-items: center;
+	}
+  }
+ 
+  
+  
+  @media screen and (min-width: 365px) and (max-width: 480px){
+	 
+	.section-Rocket{
+		align-items: center;
+		text-align: center;
+		margin-bottom: 50px;
+	 }
+	 .Title-Market{
+		 display: flex;
+		 justify-content: center;
+		 text-align: center;
+		font-size: 28px;
+		padding: 8px;
+	 }
+	 .IconRocket{
+		align-items: center;
+	 }
+	 .empowerment{
+		font-size: 18px;
+		padding: 20px;
+	 }
+	 .grid-icon{
+		 display: grid;
+		 grid-template-columns: 1fr;
+		 grid-template-rows: repeat(4, 1fr);
+		 gap: 10px;
+		 align-items: center;
+		 justify-items: center;
+	 }
+
+
+  }
+  
+  
+  @media screen and (min-width: 481px) and (max-width: 600px){
+	  
+	.section-Rocket{
+		align-items: center;
+		text-align: center;
+		margin-bottom: 50px;
+	 }
+	 .Title-Market{
+		 display: flex;
+		 justify-content: center;
+		 text-align: center;
+		font-size: 32px;
+		padding: 8px;
+	 }
+	 .IconRocket{
+		align-items: center;
+	 }
+	 .empowerment{
+		font-size: 22px;
+		padding: 20px;
+	 }
+	 .grid-icon{
+		 display: grid;
+		 grid-template-columns: repeat(2, 1fr);
+		 grid-template-rows: repeat(2, 1fr);
+		 gap: 10px;
+		 align-items: center;
+		 justify-items: center;
+	 }
+
+
+  }
+
+  
+  
+  @media screen and (min-width: 601px) and (max-width: 999px){
+	.section-Rocket{
+		align-items: center;
+		text-align: center;
+		margin-bottom: 50px;
+	 }
+	 .Title-Market{
+		 display: flex;
+		 justify-content: center;
+		 text-align: center;
+		font-size: 32px;
+		padding: 8px;
+	 }
+	 .IconRocket{
+		align-items: center;
+	 }
+	 .empowerment{
+		font-size: 22px;
+		padding: 20px;
+	 }
+	 .grid-icon{
+		 display: grid;
+		 grid-template-columns: repeat(2, 1fr);
+		 grid-template-rows: repeat(2, 1fr);
+		 gap: 10px;
+		 align-items: center;
+		 justify-items: center;
+	 }
+  }
+  
