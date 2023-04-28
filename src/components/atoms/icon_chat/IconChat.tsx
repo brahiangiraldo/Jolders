@@ -26,20 +26,20 @@ height={height} viewBox="0 0 683 683" fill="none" xmlns="http://www.w3.org/2000/
 </g>
 <defs>
 <linearGradient id="paint0_linear_40_87" x1="341.333" y1="656" x2="341.333" y2="26.6667" gradientUnits="userSpaceOnUse">
-<stop offset="0.211458" stop-color="white"/>
+<stop offset="0.211458" stopColor="white"/>
 <stop offset="1" stop-color="#C971EA"/>
 </linearGradient>
 <linearGradient id="paint1_linear_40_87" x1="341.333" y1="374.667" x2="341.333" y2="308" gradientUnits="userSpaceOnUse">
-<stop offset="0.211458" stop-color="white"/>
+<stop offset="0.211458" stopColor="white"/>
 <stop offset="1" stop-color="#C971EA"/>
 </linearGradient>
 <linearGradient id="paint2_linear_40_87" x1="474.667" y1="374.667" x2="474.667" y2="308" gradientUnits="userSpaceOnUse">
-<stop offset="0.211458" stop-color="white"/>
-<stop offset="1" stop-color="#C971EA"/>
+<stop offset="0.211458" stopColor="white"/>
+<stop offset="1" stopColor="#C971EA"/>
 </linearGradient>
 <linearGradient id="paint3_linear_40_87" x1="208" y1="374.667" x2="208" y2="308" gradientUnits="userSpaceOnUse">
-<stop offset="0.211458" stop-color="white"/>
-<stop offset="1" stop-color="#C971EA"/>
+<stop offset="0.211458" stopColor="white"/>
+<stop offset="1" stopColor="#C971EA"/>
 </linearGradient>
 </defs>
 </svg>

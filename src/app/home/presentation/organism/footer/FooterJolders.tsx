@@ -8,16 +8,25 @@ import IconInstagram from '../../../../../components/atoms/icon_instagram/IconIn
 const FooterJolders = ({ image, name,  }: FooterJoldersProps) => {
   return (
 	<footer className="footer">
+  
+
   <div className="footer__logo">
+
+ <div className='center_logo'>
   <img src={image} alt={`${name}'Logo jolders`} />
+ </div>
+
   <section className='footer-paragraph'>
  <p>Discover what’s possible when a community creates together.</p>
  </section>
- <input type="text" className="footer__input" placeholder="Enter your email address" />
- <button type="submit" value="" className='botton-submit'></button>
+ {/* <input type="text" className="footer__input" placeholder="Enter your email address" />
+ <button type="submit" value="" className='botton-submit'></button> */}
   </div>
+
 <section>
-  <div className="footer__menus">
+
+
+  <section className="footer__menus">
     <div className="footer__menu">
       <h3 className="footer__menu-title">Empresa</h3>
       <ul className="footer__menu-items">
@@ -27,6 +36,7 @@ const FooterJolders = ({ image, name,  }: FooterJoldersProps) => {
         <li><a href="#">Conducta</a></li>
       </ul>
     </div>
+
     <div className="footer__menu">
       <h3 className="footer__menu-title">Ayuda</h3>
       <ul className="footer__menu-items">
@@ -55,13 +65,17 @@ const FooterJolders = ({ image, name,  }: FooterJoldersProps) => {
         <li><a href="#">Intranet</a></li>
       </ul>
     </div>  
-  </div>
+  </section>
+
   <section className='icon-redes' >
    <IconFacebook width={40} height={40} color='white'/>
    <IconTwitter width={40} height={40} color='white'/>
    <IconInstagram width={41} height={41} color='white'/>
   </section>
+
   </section>
+  
+
 </footer>
 
   )

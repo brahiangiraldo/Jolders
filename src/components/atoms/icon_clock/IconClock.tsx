@@ -12,12 +12,12 @@ height={height} viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/
 <path d="M277.333 247.168V128C277.333 122.342 275.086 116.916 271.085 112.915C267.084 108.914 261.658 106.667 256 106.667C250.342 106.667 244.916 108.914 240.915 112.915C236.914 116.916 234.667 122.342 234.667 128V256C234.668 261.657 236.916 267.083 240.917 271.083L304.917 335.083C308.941 338.969 314.33 341.119 319.923 341.07C325.517 341.022 330.868 338.778 334.823 334.823C338.778 330.867 341.022 325.517 341.07 319.923C341.119 314.33 338.969 308.941 335.083 304.917L277.333 247.168Z" fill="url(#paint1_linear_40_52)"/>
 <defs>
 <linearGradient id="paint0_linear_40_52" x1="94" y1="65" x2="540.5" y2="178.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FAF0FD"/>
-<stop offset="1" stop-color="#B848E2"/>
+<stop stopColor="#FAF0FD"/>
+<stop offset="1" stopColor="#B848E2"/>
 </linearGradient>
 <linearGradient id="paint1_linear_40_52" x1="287.869" y1="106.667" x2="287.869" y2="341.071" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FAF0FD"/>
-<stop offset="1" stop-color="#B848E2"/>
+<stop stopColor="#FAF0FD"/>
+<stop offset="1" stopColor="#B848E2"/>
 </linearGradient>
 </defs>
 </svg>

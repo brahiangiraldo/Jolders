@@ -3,6 +3,7 @@
 	src: url('../../../../../assets/Lato-Regular.ttf');
 	font-family: 'Lato';
   }
+
 .footer {
 	display: flex;
 	align-items: center;
@@ -10,26 +11,34 @@
 	color: white;
 	padding: 50px;
   margin-bottom: 40px;
-  
+  width: 100%;
   
   }
   
   .footer__logo img {
-	width: 300px;
-	margin-left: 50px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .center-logo{
+    align-items: center;
+    text-align: center;
+    margin-left: 0px;
+   
   }
   
   .footer__menus {
 	display: flex;
-	margin-left: 150px;
+	margin-left: 0px;
 	font-family: 'Lato';
-  gap: 35px;
+  gap: 15px;
+  width: 100%;
+
 	
   }
   
   .footer__menu {
-	margin-left: 40px;
-	
+	margin-left: 30px;
   }
   
   .footer__menu-title {
@@ -44,7 +53,7 @@
 	transition: background-color 0s ease;
 	transition: background-color 0s ease;
 	font-weight: 400;
-    line-height: 24px;
+  line-height: 24px;
 	font-size: 14px;
   }
   
@@ -64,7 +73,7 @@
   .footer-paragraph{
 	width: 350px;
 	font-family: "Lato";
-	margin-left: 90px;
+	margin-left: 38px;
   }
 
   .footer__input{
@@ -74,8 +83,6 @@
     padding: 12px;
     color: #ccc;
     font-weight: 300;
-    // height: 24px;
-    // width: 220px;
     display: inline-block;
 	  margin-left: 90px;
 	  text-align: center;
@@ -83,7 +90,6 @@
 	  background: #353535 !important;
     border-color: #455465!important;
     color: #fff !important;
-    
   }
 
   .botton-submit{
@@ -102,6 +108,290 @@
     display: flex;
     gap: 20px; 
     margin-top: 40px;
-    margin-left: 700px;
+    margin-left: 450px;
   }
  
+
+  @media screen and (max-width: 364px){
+   
+   
+    .footer {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 0px;
+     margin-bottom: 0px;
+     
+
+    }
+    .footer__logo img {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  
+
+    }
+    // .Logo_jolders{
+    //   display: flex;
+    //   align-items: center;
+    //   text-align: center;
+    //   margin: 0px;
+    //   margin-left: 0px;
+    // }
+
+    .footer-paragraph{
+     display: flex;
+     text-align: center;
+     margin: 0px;
+     width: 100%;
+     margin-left: 0px;
+    }
+
+    .footer__menus{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-left: 0px;
+      align-items: center;
+      width: 100%;
+      gap: 30px;
+      
+    }
+
+    .footer__menu{
+    margin-left: 0px;
+
+    }
+
+    .footer__menu-title{
+    width: 100%;
+    }
+   
+    .icon-redes{
+      margin-left: 0px;
+    }
+
+    .center-logo{
+      margin-left: 0px;
+      margin: 0px;
+    }
+  }
+  
+  
+  @media screen and (min-width: 365px) and (max-width: 480px){
+    
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      margin-bottom: 0px;
+      
+ 
+     }
+     .footer__logo img {
+     text-align: center;
+     align-items: center;
+     width: 100%;
+   
+ 
+     }
+     // .Logo_jolders{
+     //   display: flex;
+     //   align-items: center;
+     //   text-align: center;
+     //   margin: 0px;
+     //   margin-left: 0px;
+     // }
+ 
+     .footer-paragraph{
+      display: flex;
+      text-align: center;
+      margin: 0px;
+      width: 100%;
+      margin-left: 0px;
+     }
+ 
+     .footer__menus{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       flex-direction: column;
+       margin-left: 0px;
+       align-items: center;
+       width: 100%;
+       gap: 30px;
+       
+     }
+ 
+     .footer__menu{
+     margin-left: 0px;
+ 
+     }
+ 
+     .footer__menu-title{
+     width: 100%;
+     }
+    
+     .icon-redes{
+       margin-left: 0px;
+     }
+ 
+     .center-logo{
+       margin-left: 0px;
+       margin: 0px;
+     }
+
+  }
+  
+  
+  @media screen and (min-width: 481px) and (max-width: 600px){
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      margin-bottom: 0px;
+      
+ 
+     }
+     .footer__logo img {
+     text-align: center;
+     align-items: center;
+     width: 100%;
+   
+ 
+     }
+     // .Logo_jolders{
+     //   display: flex;
+     //   align-items: center;
+     //   text-align: center;
+     //   margin: 0px;
+     //   margin-left: 0px;
+     // }
+ 
+     .footer-paragraph{
+      display: flex;
+      text-align: center;
+      margin: 0px;
+      width: 100%;
+      margin-left: 0px;
+     }
+ 
+     .footer__menus{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       flex-direction: column;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr); // Dos columnas del mismo tamaño
+       margin-top: 20px;
+       margin-left: 0px;
+       align-items: center;
+       width: 100%;
+       gap: 30px;
+       align-items: self-start;
+       
+     }
+ 
+     .footer__menu{
+     margin-left: 0px;
+ 
+     }
+ 
+     .footer__menu-title{
+     width: 100%;
+     }
+    
+     .icon-redes{
+      display: flex;
+      justify-content: center; 
+      margin-left: 0px;
+      align-items: center;
+
+     }
+ 
+     .center-logo{
+       margin-left: 0px;
+       margin: 0px;
+     }
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 1164px){
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      margin-bottom: 0px;
+      
+ 
+     }
+     .footer__logo img {
+     text-align: center;
+     align-items: center;
+     width: 100%;
+   
+ 
+     }
+     // .Logo_jolders{
+     //   display: flex;
+     //   align-items: center;
+     //   text-align: center;
+     //   margin: 0px;
+     //   margin-left: 0px;
+     // }
+ 
+     .footer-paragraph{
+      display: flex;
+      text-align: center;
+      margin: 0px;
+      width: 100%;
+      margin-left: 0px;
+     }
+ 
+     .footer__menus{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       flex-direction: column;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr); // Dos columnas del mismo tamaño
+       gap: 100px; 
+       margin-top: 20px;
+       margin-left: 0px;
+       align-items: center;
+       width: 100%;
+      
+       
+     }
+ 
+     .footer__menu{
+     margin-left: 0px;
+ 
+     }
+ 
+     .footer__menu-title{
+     width: 100%;
+     }
+    
+     .icon-redes{
+      display: flex;
+      justify-content: center; 
+      margin-left: 0px;
+      align-items: center;
+
+     }
+ 
+     .center-logo{
+       margin-left: 0px;
+       margin: 0px;
+     }
+  }
+  
+  
