@@ -13,5 +13,5 @@ export const iconInstagram = component.bind({})
 iconInstagram.args = {
   width: 89,
   height: 88,
-  color:"white",
+  color:"blue",
 }
