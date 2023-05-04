@@ -61,12 +61,12 @@
 .hamburgericon{
 	display: flex;
 	justify-content: flex-end;
-	align-items: center;
-	
+	align-items: center;	
 
 	img {
 		height: 50px;
 		width: 50px;
+		display: none;
 	}
 }
 

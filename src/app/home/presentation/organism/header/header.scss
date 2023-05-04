@@ -10,11 +10,10 @@
 .maints{
 	display: grid;
 	grid-template-columns:2fr 2fr;
-    width: 100%;
-	margin-top: 80px;
-    place-items: center;//centar hacia los dos sentidos !
+  width: 100%;
+  place-items: center;//centar hacia los dos sentidos !
 	gap: 20px;
-
+	height: calc(100% - 125px);
 }
 
 .fonts{
