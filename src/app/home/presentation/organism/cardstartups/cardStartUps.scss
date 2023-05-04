@@ -70,13 +70,13 @@ padding: 20px 15px 20px;
 
 	.cardStartUp{
 	width: 220px;
-    height: 500px;
+    height: 460px;
 	}
 	.category{
 	    font-size: 12px;
 	    letter-spacing: -0.2px;
 		color: #d19fe8;
-		padding: 30px 30px 0px;
+		padding: 0px 0px 0px;
 	}
 	.startupName{
     align-items: center;
@@ -89,6 +89,14 @@ padding: 20px 15px 20px;
 	height: 84px;
 		
 	}
+	.currentInvestment{
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 18px;
+		}
+  
+
+
 }
 
 @media screen and (min-width: 365px) and (max-width: 480px){
@@ -113,6 +121,12 @@ padding: 20px 15px 20px;
 		height: 64px;
 			
 		}
+
+		.currentInvestment{
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 12px;
+			}
 
 }
 

@@ -73,8 +73,9 @@
 	grid-gap: 10px;
 	justify-content: center;
 	align-items: center;
-	padding-left: 100px;
-	padding-right: 100px;
+	// padding-left: 100px;
+	// padding-right: 100px;
+	//poner una columna  en movil
 	}
 	
 	@media screen and (max-width: 364px){
@@ -133,8 +134,7 @@
 		}
 			
 		.sectionFolder {
-		grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-		margin-bottom: 10px;
+			grid-template-columns: repeat(1, 1fr);
 	    }
 	
 		}
@@ -198,8 +198,7 @@
 	}
 
 	.sectionFolder{
-	grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-	margin-bottom: 10px;
+		grid-template-columns: repeat(1, 1fr);
 	}
     
     }
@@ -263,8 +262,7 @@
 		}
 	
 		.sectionFolder{
-		grid-template-columns: repeat(auto-fit, minmax(140px, 2fr));
-		margin-bottom: 10px;
+			grid-template-columns: repeat(1, 1fr);
 		}
 
 		.imput-folder-image{
@@ -333,6 +331,71 @@
 		display: flex;
 		}
 	
+		.imput-folder-image{
+			width: 534px;
+			height: 950px;
+		}
+
+	}
+
+	@media screen and (min-width: 993px) and (max-width: 1024px){
+		
+		.imput-folder-container{
+			display: flex;
+			flex-direction: column;
+			margin-top: 10px;
+			margin-left: 0px;
+	
+		}
+		 
+		.container-grid{
+			display: flex;
+			margin-top: 5px;
+			flex-direction: column;
+			align-items: center;
+		}
+	
+		.imput-folder-content-container{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			margin-top: 10px;
+			margin-left: 0px;
+		}
+	
+		.imput-folder-title{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			width: 100%;
+			font-size: 32px;
+			margin-top: 2px;
+	
+		}
+	
+		.container-titlep{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+	
+		.imput-folder-paragraph{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			margin-top: 0px;
+			font-size: 16px;
+			width: 95%;
+		}
+		
+		.container-image{
+		display: flex;
+		}
+	
 		.sectionFolder{
 		grid-template-columns: repeat(auto-fit, minmax(140px, 3fr));
 		margin-bottom: 10px;
@@ -344,4 +407,3 @@
 		}
 
 	}
-

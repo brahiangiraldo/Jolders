@@ -1,4 +1,4 @@
-.header{
+.headerts{
 	background-image: url('../../../../../assets/jolders.jpeg');
 	height: 80vh;
 	width: 100%;
@@ -7,50 +7,132 @@
 
 }
 
-.main{
-	display:flex;
+.maints{
+	display: grid;
+	grid-template-columns:2fr 2fr;
     width: 100%;
-    height: 100%;
-    margin-top: 161px;
-	margin-left: 175px;
+	margin-top: 80px;
+    place-items: center;//centar hacia los dos sentidos !
+	gap: 20px;
 
-	
 }
 
-.font{
+.fonts{
 	font-family: var(--font-family);
 	font-size: 26px;
 	font-weight: 600;
 	line-height: 1.2;
 	color: #333;
-	text-align: center; 
-	margin-left: 200px; 
-	max-width: 30%; 
+	text-align: center;
+	width: 450px; 
 	margin-top: 1px;
 	&:after {
 		content: "\1F60E\1F984";
 	  }
 	
   }
-
   @media screen and (max-width: 364px){
-	.header {
-	  display: flex;
-	  flex-direction: column;
-	  align-items: center;
-	}
+
+    .maints {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		gap: 5px;
 	
-	.main {
-	  text-align: center;
-	}
+	}	
+	.fonts {
+		margin-top: 20px;
+		width: 270px;
+		font-size: 18px;
+		 
+		}
+
+
+	.maints img {
+		display: none;
+		}
+  }
+
+  @media screen and (min-width: 365px) and (max-width: 480px){
+	// .headerts {
+	// 	display: none;
+	// 	}
+		
+	.maints {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		gap: 5px;
 	
-	.main img {
-	  display: none;
-	}
+	}	
+	.fonts {
+		margin-top: 20px;
+		width: 300px;
+		font-size: 20px;
+		 
+		}
+
+
+	.maints img {
+		display: none;
+		}
+	  }
 	
-	.font {
-	  font-size: 1rem;
-	}
+
+	  @media screen and (min-width: 481px) and (max-width: 600px){
+    	.maints {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			gap: 5px;
+			}
+			
+			.fonts {
+			margin-top: 20px;
+			width: 300px;
+			font-size: 20px;
+			 
+		    }
+
+			.maints img {
+				display: none;
+			}
+
+		}
+
+	  @media screen and (min-width: 601px) and (max-width: 800px){
+
+			.maints {
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			gap: 5px;
+			}
+			
+			.fonts {
+			margin-top: 20px;
+			width: 300px;
+			font-size: 20px;
+			 
+		    }
+
+			.maints img {
+				display: none;
+			}
+		
+	  }
+	  @media screen and (min-width: 801px) and (max-width: 999px){
+			
+			.maints {
+			 gap: 5px;
+			
+			}
+			
+			.fonts {
+			width: 320px;
+			font-size: 22px; 
+			}
+	
   }
 
 

@@ -5,11 +5,10 @@
 }
 
 .menuBarjolders {
-	width: 100%;
+	display: flex;
+	justify-content: space-between;
 	height: 85px;
 	background: black;
-	display: grid;
-	grid-template-columns: 1fr 3fr;
 	padding: 20px;
 
 }
@@ -23,7 +22,7 @@
 
 	img {
 		height: 80px;
-		width: 187px;
+		width: 200px;
 		margin-right: 85px;
 		padding: 9px 0 10px;
 	}
@@ -59,23 +58,83 @@
 	}
 }
 
-@media screen and (max-width: 364px){
+.hamburgericon{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 	
-	.menuBarjolders {
 
-
-	}
-
-	.logoMenuBarjolders{
-
-
-	}
-
-
-	.optionsMenuBarjolders{
-
-
+	img {
+		height: 50px;
+		width: 50px;
 	}
 }
 
+.hamburgericon:hover{
+	background-color: #8224E3;
+	border-radius: 50px;
+}
 
+@media screen and (max-width: 364px){
+	.optionsMenuBarjolders{
+		display: none;
+	}
+
+	.hamburgericon{
+		display: none;
+	}
+
+}
+
+
+@media screen and (min-width: 365px) and (max-width: 480px){
+
+	.optionsMenuBarjolders{
+		display: none;
+	}
+
+	.hamburgericon{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px){
+
+.menuBarjolders{
+  width: 94%;
+  height: 85px;
+}
+	
+.optionsMenuBarjolders{
+  display: none;
+ }
+}
+
+
+
+@media screen and (min-width: 601px) and (max-width: 800px){
+	.menuBarjolders{
+	width: 94%;
+	height: 85px;
+	}
+
+	.optionsMenuBarjolders{
+		display: none;
+	}	
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px){
+	
+	.optionsMenuBarjolders{
+		display:none;
+			
+	}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+	.hamburgericon{
+		display: none;
+	}
+
+}

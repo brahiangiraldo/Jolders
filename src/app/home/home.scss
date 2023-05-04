@@ -1,5 +1,6 @@
 .container-login-page{
   background-color: black;
+  width: 100vw;
 }
 
 .section-global{
@@ -38,22 +39,14 @@
 
 @media screen and (min-width: 481px) and (max-width: 600px){
 	
-  .container-login-page{
-    background-color: black;
-  }
-  
   .section-global{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
   
 }
 
 @media screen and (min-width: 601px) and (max-width: 800px){
-	.container-login-page{
-    background-color: black;
-  }
-  
   .section-global{
     padding-left: 30px;
     padding-right: 30px;
@@ -61,14 +54,11 @@
   	
 }
 
-@media screen and (min-width: 801px) and (max-width: 999px){
-  .container-login-page{
-    background-color: black;
-  }
-  
+@media screen and (min-width: 801px) and (max-width: 1440px){
+
   .section-global{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
   
 }

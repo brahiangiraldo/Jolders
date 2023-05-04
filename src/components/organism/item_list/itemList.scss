@@ -1,0 +1,37 @@
+.container-map{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: black;
+color: white;
+width: 14rem;
+height: 90vh;
+gap: 40px;
+position: absolute;
+right: 0px;
+top: 0px;
+z-index: -1;
+
+a {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+	color: #D19FE8;
+	padding: 0px 12px;
+	border-radius: 4px;
+	background-color: transparent;
+	transition: background-color 0.2s ease;
+	
+
+	&:hover,
+	&.active {
+		color: white;
+		background-color: #8224E3;
+	}
+ }
+}
+
+
