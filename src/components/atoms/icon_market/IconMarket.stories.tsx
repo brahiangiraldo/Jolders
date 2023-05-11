@@ -11,5 +11,7 @@ export const iconMarket = component.bind({})
 iconMarket.args = {
   width: 89,
   height: 88,
-  color:'blue',
+  fillColor:"orange",
+  outlineColor:"pink"
+  
 }

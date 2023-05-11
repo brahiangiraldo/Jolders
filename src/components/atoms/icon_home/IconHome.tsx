@@ -1,20 +1,12 @@
-import { IconStartUpProps } from '../icon_startUp/IconStartUp.Props'
+import { IconsProps } from "../__factory__/IconsFactoryProps"
 
-const IconStartUp = ({ width, height, color }: IconStartUpProps) => {
+
+const IconHome = ({ width, height,color }: IconsProps) => {
 	return (
-		<svg
-			width={width}
-			height={height}
-			viewBox="0 0 28 28"
-			fill={color}
-			xmlns="http://www.w3.org/2000/svg"
-		>
-			<path
-				d="M27.5098 11.8584L25.4505 10.0478L14.4796 0.398832C14.2084 0.15742 13.8054 0.15742 13.5269 0.398832L2.556 10.0478L0.496665 11.8584C0.188865 12.1299 0.152222 12.6052 0.416051 12.9221C0.672551 13.2389 1.12692 13.2767 1.4274 13.0126L1.43472 13.0051L2.3508 12.1903V26.3355C2.35812 26.758 2.69524 27.105 3.10564 27.1126H24.8935C25.3039 27.105 25.641 26.7656 25.6484 26.3355V12.1903L26.5644 13.0051C26.6963 13.1182 26.8576 13.1861 27.0335 13.1861C27.246 13.1861 27.4512 13.0881 27.5904 12.9221C27.8616 12.5977 27.8176 12.1224 27.5098 11.8584ZM16.9347 25.5962H11.0718V17.4486H16.9347V25.5962ZM18.4004 25.5962V16.7168C18.4004 16.3019 18.0999 15.9397 17.6968 15.9397H10.3096C9.90656 15.9397 9.60609 16.3019 9.60609 16.7168V25.5962H3.81651V10.9003L14.0032 1.96801L24.19 10.9003V25.5962H18.4004Z"
-				fill={color}
-			/>
-		</svg>
+
+<svg width={width} height={height} enable-background="new 0 0 32 32" id="Editable-line" version="1.1" viewBox="0 0 32 32"  xmlns="http://www.w3.org/2000/svg"><path d="  M27,29H5V17H3.235c-1.138,0-1.669-1.419-0.812-2.168L14.131,3.745c1.048-0.993,2.689-0.993,3.737,0l11.707,11.087  C30.433,15.58,29.902,17,28.763,17H27V29z" fill="pink" id="XMLID_1_" stroke="purple" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/><path d="  M20,29h-8v-6c0-2.209,1.791-4,4-4h0c2.209,0,4,1.791,4,4V29z" fill={color} id="XMLID_2_" stroke="black" stroke-linecap="round" stroke-linejoin="round"  stroke-miterlimit="10" stroke-width="2"/></svg>
+
 	)
 }
 
-export default IconStartUp
+export default IconHome
