@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import './menu_barjolders.scss'
 import Jolder from '@/assets/jolder.png'
-import HamburgerIcon from '../../../assets/HamburgerIcon.png'
+import IconMenuBurguer from '@/components/atoms/icon_menuburguer/IconMenuBurguer'
 
 const MenuBarJolders = () => {
 	const itemOptions = [
@@ -41,7 +41,8 @@ const MenuBarJolders = () => {
 			</section>
 
 			<section className="hamburgericon">
-				<Image src={HamburgerIcon} alt="Icon Hamburguer" />
+	         {/* <Image src={HamburgerIcon} alt="Icon Hamburguer" /> */}
+			<IconMenuBurguer width={60} height={60} color="#ad00ed"/>
 			</section>
 		</section>
 	)
