@@ -4,9 +4,16 @@
   --primary: #000000;
   --light: #ffffff;
   --font-family: 'Jura', sans-serif;
+
+  /**Borders and border-radius*/
+  --border-radius-card: 9px;
+  --border-card: 1px;
 }
 body{
   margin: 0px;
   max-width: 100vw;
 }
 
+.ejemplo{
+  border-radius: var(--border-radius-card);
+}
