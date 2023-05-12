@@ -1,63 +1,44 @@
-
-import { useState } from 'react';
-import IconStartUp from "@/components/atoms/icon_startUp/IconStartUp";
+import React, { useState } from 'react';
+import IconsFactory from '@/components/atoms/__factory__/IconsFactory';
 import './menuTab.scss';
+import { ItemMenuTab, MenuTabProps } from './MenuTabProps';
 
-import IconInversor from '@/components/atoms/icon_inversores/IconInversor';
-import IconHome from '@/components/atoms/icon_home/IconHome';
 
-const MenuTab = () => {
-  const [startupBackgroundColor, setStartupBackgroundColor] = useState('transparent');
-  const [inversorBackgroundColor, setInversorBackgroundColor] = useState('transparent');
-  const [HomeBackgroundColor, setHomeBackgroundColor] = useState('transparent');
-  
-  
-  const handleStartupClick = () => {
-    setStartupBackgroundColor('#ad00ed'); // Cambia el color de fondo del icono de startup a morado al hacer click
-  };
+const MenuTab = ({ items }: MenuTabProps) => {
+ const [activeIcon, setActiveIcon] = useState<string | null>(null);
 
-  const handleInversorClick = () => {
-    setInversorBackgroundColor('#ad00ed'); 
-  };
 
-  const handleHomeClick = () => {
-    setHomeBackgroundColor('#ad00ed'); 
-  };
+ const handleClick = (item: ItemMenuTab) => {
+   if (activeIcon === item.iconDefault) {
+     setActiveIcon(item.iconActive);
+   } else {
+     setActiveIcon(item.iconDefault);
+   }
+   item.onClick();
+ };
 
-  return (
-    <article className="mobile-menu-bar">
-      <section className="content-icon">
-        {/* <IconStartUp 
-          width={70} 
-          height={70} 
-          fillColor={startupBackgroundColor}
-          outlineColor="white"
-          onClick={handleStartupClick}
-        /> */}
-      </section>
-    
-      <section className="content-icon">
-        <IconInversor 
-          width={70} 
-          height={70} 
-          fillColor={inversorBackgroundColor}
-          outlineColor="white"
-          onClick={handleInversorClick}
-        />
-      </section>
 
-      <section className="content-icon">
-        <IconHome
-          width={70} 
-          height={70} 
-          fillColor={HomeBackgroundColor}
-          outlineColor="white"
-          onClick={handleHomeClick}
-        />
-      </section>
-      
-    </article>
-  );
+ return (
+   <article className="mobile-menu-bar">
+     {items.map((item) => (
+       <section
+         key={item.text}
+         onClick={() => handleClick(item)}
+         className={activeIcon === item.iconDefault ? 'menu-item active' : 'menu-item'}
+       >
+         <IconsFactory
+           name={activeIcon === item.iconDefault ? item.iconDefault : item.iconActive}
+           width={90}
+           height={90}
+           color="#ad00ed"
+         />
+         <span>{item.text}</span>
+       </section>
+     ))}
+   </article>
+ );
 };
 
+
 export default MenuTab;
+

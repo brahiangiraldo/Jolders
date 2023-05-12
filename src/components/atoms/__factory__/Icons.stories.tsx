@@ -17,7 +17,7 @@ export const collections = component.bind({})
 collections.args = {
 	width: 100,
 	height: 100,
-	color: 'purple',
+	color: '#ad00ed',
 	name: 'IconStartUp'
 }
 

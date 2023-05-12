@@ -1,7 +1,7 @@
 import { IconsProps } from "../__factory__/IconsFactoryProps";
 
 
-const IconInversor = ({ width, height, color}: IconsProps) => {
+const IconInversores = ({ width, height, color}: IconsProps) => {
 
   return (
 
@@ -11,7 +11,7 @@ const IconInversor = ({ width, height, color}: IconsProps) => {
 </mask>
 <g mask="url(#mask0_1047_31)">
 <path d="M26.4997 5.48057C27.8862 8.41141 27.2754 11.9485 24.6672 14.3451C21.2613 17.4748 15.7395 17.4748 12.3337 14.3451C8.92785 11.2155 8.92785 6.14131 12.3337 3.01165C14.9419 0.614918 18.7911 0.0536527 21.9805 1.32779" stroke="black" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M20.2896 5.03266C20.2896 5.03266 19.114 4.2142 17.7016 4.60408C16.2601 5.00205 15.9024 6.8152 16.8819 7.5211C17.4442 7.92638 18.2905 8.25967 19.4309 8.63009C21.9833 9.45917 21.0397 12.7669 18.4434 12.7828C17.4301 12.789 16.9564 12.7299 16.0664 12.1948" stroke="white" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.2896 5.03266C20.2896 5.03266 19.114 4.2142 17.7016 4.60408C16.2601 5.00205 15.9024 6.8152 16.8819 7.5211C17.4442 7.92638 18.2905 8.25967 19.4309 8.63009C21.9833 9.45917 21.0397 12.7669 18.4434 12.7828C17.4301 12.789 16.9564 12.7299 16.0664 12.1948" stroke="black" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18.5 3.36572V13.9907" stroke="black" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18.5 16.6918V27.8428" stroke="black" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M28.1476 19.2207C25.5923 18.5937 22.7528 19.201 20.7482 21.0432C18.7434 22.8853 18.0825 25.4946 18.7648 27.8427C21.3201 28.4697 24.1596 27.8623 26.1642 26.0202C28.169 24.1781 28.8299 21.5688 28.1476 19.2207Z" stroke="black" stroke-width="1.2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -24,4 +24,4 @@ const IconInversor = ({ width, height, color}: IconsProps) => {
   );
 };
 
-export default IconInversor ;
+export default IconInversores ;
