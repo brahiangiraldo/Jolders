@@ -7,5 +7,8 @@ export default {
 	component: StartUpSections 
 } as ComponentMeta<typeof StartUpSections>
 
-const component: ComponentStory<typeof StartUpSections> = (...args) => <StartUpSections  />
-export const startUpSections = component.bind({})
+const component: ComponentStory<typeof StartUpSections> = (args) => <StartUpSections { ...args }/>;
+export const startUpSections = component.bind({});
+startUpSections.args = {
+	id: 'start-up-sections', // Asigna el id deseado para el componente StartUpSections
+  };

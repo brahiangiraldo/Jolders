@@ -10,8 +10,8 @@
 .maints{
 	display: grid;
 	grid-template-columns:2fr 2fr;
-  width: 100%;
-  place-items: center;//centar hacia los dos sentidos !
+    width: 100%;
+    place-items: center;//centar hacia los dos sentidos !
 	gap: 20px;
 	height: calc(100% - 125px);
 }
@@ -26,8 +26,8 @@
 	width: 450px; 
 	margin-top: 1px;
 	&:after {
-		content: "\1F60E\1F984";
-	  }
+	content: "\1F60E\1F984";
+	}
 	
   }
   @media screen and (max-width: 364px){

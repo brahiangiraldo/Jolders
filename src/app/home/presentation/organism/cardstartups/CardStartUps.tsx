@@ -2,7 +2,6 @@
 import Cardfooter from '@/components/molecules/cardfooter/Cardfooter'
 import { CardStartUpsProps } from './CardStartUpsProps'
 import './cardStartUps.scss'
-import Image from 'next/image'
 
 const CardStartUps = ({
 	imageSrc,
@@ -13,7 +12,7 @@ const CardStartUps = ({
 	daysRemain,
 	investors,
 	founded,
-	favorite
+
 }: CardStartUpsProps) => {
 	// Formato de moneda en euros
 	const currencyFormat = new Intl.NumberFormat('es-ES', {

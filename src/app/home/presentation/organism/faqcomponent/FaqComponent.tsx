@@ -1,12 +1,13 @@
 import Accordeon from '@/components/organism/accordeon/Accordeon'
 import { Faq } from './Data'
 import './faqComponent.scss'
-import ButtonAnswer from '@/components/molecules/button-answer/ButtonAnswer'
+import { FaqComponentProps } from './FaqComponentProps'
+// import ButtonAnswer from '@/components/molecules/button-answer/ButtonAnswer'
 
-const FaqComponent = () => {
+const FaqComponent = ({id}:FaqComponentProps) => {
 	return (
-		<div className="faq-component">
-			<section className="faq-section-components">
+		<div className="faq-component" id={id}>
+		<section className="faq-section-components">
 				<h2 className="faq-title">Respondemos tus dudas</h2>
 				<h3 className="faq-subtitle">
 					Invierte de manera segura. Encuentra lo que necesitas saber para
@@ -26,9 +27,9 @@ const FaqComponent = () => {
 						de inversión.
 					</p>
 
-					<section className="botton-answer">
+					{/* <section className="botton-answer">
 						<ButtonAnswer text="INVERTIR AHORA" bgColor="" txtColor="#d19fe8" />
-					</section>
+					</section> */}
 				</section>
 				<section className="section-map">
 					{Faq.map((item) => (
@@ -40,4 +41,4 @@ const FaqComponent = () => {
 	)
 }
 
-export default FaqComponent
+export default FaqComponent;

@@ -1,6 +1,7 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 import IconClock from './IconClock'
 
+
 export default {
   title: 'Components/Atoms/IconClock',
   component: IconClock

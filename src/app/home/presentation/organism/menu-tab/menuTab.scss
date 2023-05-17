@@ -2,8 +2,38 @@
 	display: flex;
   justify-content:space-around;
   background-color: black;
+  margin-top: 20px;
   }
   
-  .menu-item:hover {
-	background-color: #d19fe8;
+  @media screen and (max-width: 364px){
   }
+  
+  
+  @media screen and (min-width: 365px) and (max-width: 480px){
+  }
+  
+  
+  @media screen and (min-width: 481px) and (max-width: 600px){ 
+  }
+  
+  @media screen and (min-width: 601px) and (max-width: 800px){
+    .mobile-menu-bar{
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 801px) and (max-width: 1440px){
+  
+    .mobile-menu-bar{
+      display: none;
+    } 
+  }
+  
+
+  @media screen and (min-width: 1441px) and (max-width: 2560px){
+  
+    .mobile-menu-bar{
+      display: none;
+    } 
+  }
+  
