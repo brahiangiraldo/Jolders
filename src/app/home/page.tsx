@@ -52,7 +52,9 @@ const Page = () => {
         </section>
         <EventStart image="https://jolders.com/wp-content/uploads/2023/02/4yfn.png" name="Javier" />
         <FooterJolders image="https://jolders.com/wp-content/uploads/2023/03/jolders-logo-new.png" name="Jolders" />
-        <MenuTab items={items} />
+       <section className='position'>
+	    <MenuTab items={items} />
+	   </section>
       </section>
     </div>
   );

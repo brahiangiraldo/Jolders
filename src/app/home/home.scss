@@ -1,11 +1,19 @@
-.container-login-page{
+.container-login-page {
   background-color: black;
   width: 100vw;
 }
 
-.section-global{
+.section-global {
   padding-left: 150px;
   padding-right: 150px;
+}
+
+.position {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; 
 }
 
 
@@ -20,6 +28,7 @@
     padding-right: 30px;
   }
   
+  
 }
 
 
@@ -33,6 +42,8 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  
   
 }
 
