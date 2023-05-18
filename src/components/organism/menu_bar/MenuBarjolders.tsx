@@ -20,11 +20,7 @@ const MenuBarJolders = () => {
 		{
 			text: 'Mercado',
 			redirecTo: '#'
-		},
-		// {
-		// 	text: 'Cuenta',
-		// 	redirecTo: '#'
-		// }
+		}
 	]
 
 	return (
@@ -41,7 +37,7 @@ const MenuBarJolders = () => {
 			</section>
 
 			<section className="hamburgericon">
-			<IconMenuBurguer width={60} height={60} color="#ad00ed"/>
+				<IconMenuBurguer width={60} height={60} color="#ad00ed" />
 			</section>
 		</section>
 	)
