@@ -5,7 +5,7 @@ const IconHomeFill = ({ width, height, color }: IconsProps) => {
 		<svg
 			width={width}
 			height={height}
-			enable-background="new 0 0 32 32"
+			enableBackground="new 0 0 32 32"
 			id="Editable-line"
 			version="1.1"
 			viewBox="0 0 32 32"
